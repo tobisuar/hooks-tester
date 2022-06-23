@@ -1,0 +1,11 @@
+body{
+    padding: 70px;
+}
+
+.blockquote{
+
+    border-left: 5px solid #eee;   
+    display: flex;
+    margin: 20px 0;
+    padding: 10px 20px;
+}

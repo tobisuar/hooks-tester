@@ -1,17 +1,27 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import { MainApp } from './components/09-useContext/MainApp';
+
+//import { TodoApp } from './components/08-useReducer/TodoApp';
+//import { Padre } from './components/07-tarea-memo/Padre';
+//import { CallbackHook } from './components/06-memos/CallbackHook';
+//import { MemoHook } from './components/06-memos/Memohook';
+//import { Memorize } from './components/06-memos/Memorize';
+//import { Layout } from './components/05-useLayoutEffect/layout';
+//import { RealSampleRef } from './components/04-useRef/RealSampleRef';
+//import { FocusScreen } from './components/04-useRef/FocusScreen';
+//import { MultipleCustomHooks } from './components/03-examples/MultipleCustomHooks';
+//import { CounterApp } from './components/01-useState/CounterApp';
+//import { CounterWithCustomHook } from './components/01-useState/CounterWithCustomHook';
+//import { SimpleForm } from './components/02-useEfect/SimpleForm';
+//import { HooksApp } from './HooksApp';
+//import { FormWithCustomHook } from './components/02-useEfect/FormWithCustomHook';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
+
+    <MainApp />
+
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
