@@ -17,12 +17,14 @@ export let AppRouter = () => {
         <div>
             
             <NavBar/>
+        <div className='container'>    
         <Routes>
             <Route exact path="/" element = {<HomeScreen/>}/>
             <Route exact path="/about" element = {<AboutScreen/>}/>
             <Route exact path= "/Login" element= {<LoginScreen/>}/>
             <Route component = {<HomeScreen/>}/>
         </Routes>
+        </div>
 
 
         </div>
